@@ -73,7 +73,7 @@
 
 </table> 
 
-<h3>Таблица сравнения</h3>
+<h3>Таблица  гибкого сравнения</h3>
 
 <table class="table2"> 
     <thead>
@@ -198,6 +198,133 @@
         </tr>                
     </tbody>
 </table> 
+</table> 
+
+<h3>Таблица жесткого сравнения</h3>
+
+<table class="table2"> 
+    <thead>
+        <tr>
+            <th>
+                <strong></strong>
+            </th>
+            <th>
+                <strong>true</strong>
+            </th>
+            <th>
+                <strong>false</strong>
+            </th> 
+            <th>
+                <strong>1</strong>
+            </th>
+            <th>
+                <strong>0</strong>
+            </th>
+            <th>
+                <strong>-1</strong>
+            </th>
+            <th>
+                <strong>"1"</strong>
+            </th>
+            <th>
+                <strong>null</strong>
+            </th>
+            <th>
+                <strong>"php"</strong>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>true</th>
+            <td><?php echo true === true ?></td>
+            <td><?php echo true === false ?></td>
+            <td><?php echo true === 1 ?></td>
+            <td><?php echo true === 0 ?></td>
+            <td><?php echo true === -1 ?></td>
+            <td><?php echo true === "1" ?></td>
+            <td><?php echo true === null ?></td>
+            <td><?php echo true === "php" ?></td>
+        </tr>
+        <tr>
+            <th>false</th>
+            <td><?php echo false === true ?></td>
+            <td><?php echo false === false ?></td>
+            <td><?php echo false === 1 ?></td>
+            <td><?php echo false === 0 ?></td>
+            <td><?php echo false === -1 ?></td>
+            <td><?php echo false === "1" ?></td>
+            <td><?php echo false === null ?></td>
+            <td><?php echo false === "php" ?></td>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td><?php echo 1 === true ?></td>
+            <td><?php echo 1 === false ?></td>
+            <td><?php echo 1 === 1 ?></td>
+            <td><?php echo 1 === 0 ?></td>
+            <td><?php echo 1 === -1 ?></td>
+            <td><?php echo 1 === "1" ?></td>
+            <td><?php echo 1 === null ?></td>
+            <td><?php echo 1 === "php" ?></td>
+        </tr>
+        <tr>
+            <th>0</th>
+            <td><?php echo 0 === true ?></td>
+            <td><?php echo 0 === false ?></td>
+            <td><?php echo 0 === 1 ?></td>
+            <td><?php echo 0 === 0 ?></td>
+            <td><?php echo 0 === -1 ?></td>
+            <td><?php echo 0 === "1" ?></td>
+            <td><?php echo 0 === null ?></td>
+            <td><?php echo 0 === "php" ?></td>
+        </tr>
+        <tr>
+            <th>-1</th>
+            <td><?php echo -1 === true ?></td>
+            <td><?php echo -1 === false ?></td>
+            <td><?php echo -1 === 1 ?></td>
+            <td><?php echo -1 === 0 ?></td>
+            <td><?php echo -1 === -1 ?></td>
+            <td><?php echo -1 === "1" ?></td>
+            <td><?php echo -1 === null ?></td>
+            <td><?php echo -1 === "php" ?></td>
+        </tr>
+        <tr>
+            <th>"1"</th>
+            <td><?php echo "1" === true ?></td>
+            <td><?php echo "1" === false ?></td>
+            <td><?php echo "1" === 1 ?></td>
+            <td><?php echo "1" === 0 ?></td>
+            <td><?php echo "1" === -1 ?></td>
+            <td><?php echo "1" === "1" ?></td>
+            <td><?php echo "1" === null ?></td>
+            <td><?php echo "1" === "php" ?></td>
+        </tr>
+        <tr>
+            <th>null</th>
+            <td><?php echo null === true ?></td>
+            <td><?php echo null === false ?></td>
+            <td><?php echo null === 1 ?></td>
+            <td><?php echo null === 0 ?></td>
+            <td><?php echo null === -1 ?></td>
+            <td><?php echo null === "1" ?></td>
+            <td><?php echo null === null ?></td>
+            <td><?php echo null === "php" ?></td>
+        </tr>
+        <tr>
+            <th>"php"</th>
+            <td><?php echo "php" === true ?></td>
+            <td><?php echo "php" === false ?></td>
+            <td><?php echo "php" === 1 ?></td>
+            <td><?php echo "php" === 0 ?></td>
+            <td><?php echo "php" === -1 ?></td>
+            <td><?php echo "php" === "1" ?></td>
+            <td><?php echo "php" === null ?></td>
+            <td><?php echo "php" === "php" ?></td>
+        </tr>                
+    </tbody>
+</table>
 </div>
 
 </body>
